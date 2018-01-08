@@ -1,0 +1,472 @@
+body{
+  font-family: 'Lato', sans-serif;
+  background: #fafafa;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.navbar{
+  margin-bottom: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+
+.navbar-default .navbar-brand {
+  color: #2969A0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 768px) {
+  .navbar-default .navbar-brand {
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 5px;
+  }
+}
+
+
+
+.navbar-default .navbar-nav {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  font-family: 'Lato', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-default .navbar-nav {
+  font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown-menu {
+  font-size: 10px;
+  }
+}
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #151515;
+  font-weight: 800;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color:#2969A0;
+}
+
+
+
+.image-container-wrap-photo-electritcian {
+  position: relative;
+
+
+}
+
+.image-container-wrap-photo-electritcian p {
+  position: absolute;
+  top:40%;
+  display:inline-block;
+  width:100%;
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  margin:0 auto;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .image-container-wrap-photo-electritcian p {
+    top:30px;
+    font-size:12px;
+  }
+}
+
+.image-container-wrap-photo-electritcian p.slogan {
+  position: absolute;
+  top:50%;
+  display:inline-block;
+  width:100%;
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  margin:0 auto;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: normal;
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .image-container-wrap-photo-electritcian p.slogan {
+    top:50px;
+    font-size:10px;
+  }
+}
+
+.image-container-wrap-photo-electritcian .button-contact {
+  position: absolute;
+  top:60%;
+  display:inline-block;
+  width:100%;
+  font-size: 40px;
+  color: #0059b3;
+  font-family: 'Lato', sans-serif;
+  padding: 20px;
+  margin:0 auto;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .image-container-wrap-photo-electritcian .button-contact  {
+    top:70px;
+    font-size:12px;
+  }
+}
+
+#contact {
+  background-color: #fff;
+  padding: 15px;
+  border-color: #fff;
+  text-shadow: 0 0.075em 0.075em rgba(0,0,0,0.3);
+  font-size:32px;
+
+}
+
+@media screen and (max-width: 768px) {
+  #contact   {
+    padding: 5px;
+    font-size: 12px;
+  }
+}
+
+
+.electrician {
+  width:100%;
+  box-shadow: 0px 2px 10px #aaa;
+  margin-bottom: 50px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .photo-electrician   {
+    margin-top: 50px;
+  }
+}
+
+
+/* offer */
+
+.offer-details {
+  text-transform: uppercase;
+  background-color: #79B3D2;
+  margin:0;
+  color: #fff;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px;
+}
+
+.electric-work {
+  text-transform: lowercase;
+  font-size: 15px;
+}
+
+.lineone {
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  .lineone   {
+    margin-bottom: 0px;
+  }
+  .offer-details {
+    font-size: 12px;
+  }
+  .offer {
+    font-size: 10px;
+    padding-bottom: 10px;
+    }
+  }
+
+  #offer {
+    margin-bottom: 50px;
+  }
+
+.description {
+  background-color: #eee;
+  padding: 15px;
+  height: 215px;
+  color: #444;
+
+}
+
+@media screen and (max-width: 768px) {
+  .description   {
+    height: 150px;
+  }
+}
+
+
+
+
+
+/* pricing */
+
+#pricing {
+  background-color: #fff;
+  letter-spacing: 1px;
+
+
+}
+
+.prices {
+  background-color: #fff;
+  text-transform: uppercase;
+
+}
+
+.prices-title {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  text-shadow: 0 0.075em 0.075em rgba(0,0,0,0.3);
+  color: #2969A0;
+}
+
+@media screen and (max-width: 768px) {
+  .prices-title   {
+     font-size: 15px;
+  }
+}
+
+
+
+.price-text {
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 20px;
+  color: #999;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .price-text   {
+    font-size: 10px;
+  }
+}
+
+
+  @media screen and (max-width: 768px) {
+    .electric-work   {
+      font-size: 12px;
+    }
+  }
+
+
+.flat-sp, .home-sp {
+  background-color: #F8F9FB;
+  margin: 0;
+  height: 90px;
+}
+
+.home, .flat {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  background-color: #79B3D2;
+  text-transform: uppercase;
+  color:#fff;
+  margin:0;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .flat, .home   {
+    font-size: 20px;
+  }
+}
+
+.flat-size, .home-size {
+  text-align: center;
+  font-size: 15px;
+  color: #444;
+  padding: 10px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .flat-size, .home-size, .flat-price, .home-price {
+    font-size: 12px;
+    padding: 5px;
+  }
+}
+
+strong {
+  color: #0059b3;
+}
+span {
+  color: #79B3D2;
+}
+.flat-price, .home-price {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+
+}
+
+.flat-details, .home-details {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  height: 270px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .home-details, .flat-details {
+    font-size: 12px;
+    height: 250px;
+  }
+}
+
+
+
+.price-detail-text {
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+/* Contact */
+
+.contact-text {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-text{
+    font-size: 20px;
+
+  }
+}
+
+.cellphone {
+  display: block;
+  margin: 0 auto;
+
+}
+
+.phone-number, .email-adress {
+  text-align: center;
+  font-size: 25px;
+  color: #444;
+}
+
+@media screen and (max-width: 768px) {
+  .phone-number, .email-adress {
+    font-size: 20px;
+
+  }
+}
+
+/* footer */
+
+footer {
+  background-color: #2969A0;
+  color: #eee;
+  padding-top: 10px;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 3px;
+  position: absolute;
+  width: 100%;
+  margin-top: 20px;
+
+
+}
+
+
+.rights {
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  footer {
+  font-size: 8px;
+  padding: 5px;
+  margin: 0px;
+  }
+  .contact-footer {
+    font-size: 10px;
+  }
+  .rights {
+    margin: 0px;
+  }
+}
+
+
+/* Bathroom */
+.bathroom-projects img, .kitchen-projects img {
+  height: 350px;
+  border: none;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.lr-projects img {
+  height: 200px;
+  border: none;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+h1 {
+  text-align: center;
+  padding: 15px;
+  background-color: #2969A0;
+  color: #eee;
+  margin-top: 90px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .bathroom-projects img, .kitchen-projects img, .lr-projects img {
+    display: block;
+    margin: 0 auto;
+  }
+}
